@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #eaeaea;
+    position: absolute;
+}
+.container {
+    width: auto;
+    margin: 125px;
+    background-color: #ffffff;
+    height: auto;
+    padding: 15px;
+    border-radius: 25px;
+    position: relative;
+}
+.pão img {
+   border-radius: 25px  ;
+   margin: 10px auto;
+   display: flex;
+   position: relative;
+   height: 250px;
+   width: 100%;  
+   object-fit: cover;
+}
+.container h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 1.6em;
+    color: #1b1b1b;
+}
+.container h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 1.6em;
+    color: #1b1b1b;
+}
+.container footer {
+    text-align: center;
+}
+.receita {
+    margin: 20px;
+    font-weight: 400;
+    line-height: 1.6;   
+    background-color: #ffffff;
+    font-size: 16px;
+}
+.info {
+    margin: 9px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #39393a;
+    font-size: 16px;
+}
+footer{
+    color: #8F8F8F;
+    margin: 50px auto;
+    font-size: 12px;
+    text-align: center;
+        
+}
+ figcaption {
+    width: 100%;
+    color: #8f8f8f;
+    text-align: end;
+    font-size: 12px;
+ }
